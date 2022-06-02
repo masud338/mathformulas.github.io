@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body 
+{
+    margin: 0;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+}
+.main_div
+{
+    width: 90%;
+    height: 70vh;
+    border: 0 solid;
+    border-radius: 1px;
+    color: rgb(0, 3, 6);
+}
+.search-widget .form-control {
+    padding-right: 50px;
+    height: 45px;
+}
+.input-error {
+    border-color: red;
+}
+
+
+#icon
+{
+    width: 30px;
+    cursor: pointer;
+}
+/*------Navigation------*/
+
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  overflow: hidden;
+  background-color: rgb(172, 246, 249);
+  display: flex;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    font-family: arial;
+    text-decoration: underline;
+  display: block;
+  color: rgb(24, 2, 2);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+  }
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(66, 167, 167);}
+
+ul.topnav li a.active {background-color: #06a7bc;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
+/*----Login---*/
+
+/*-----Tabale----*/
+.tblFormula
+{
+    text-align: left;
+    table-layout: fixed;
+    margin: 20px;
+    border-collapse: collapse;
+    width: fit-content;
+}
+.tdTitle
+{
+    
+    color: #021f20;
+    background-color: rgb(13, 244, 167);
+    text-align: justify;
+
+}
+.tdFormula1
+{
+    color: black;
+    background-color: rgb(219, 236, 250);
+    text-align:justify;
+}
+.tdFormula2
+{
+    text-align: justify;
+}
+/*-----c------*/
+.contact
+{
+    position: relative;
+    min-height: 10px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(215, 241, 241);
+    flex-direction: column;
+
+
+}
+.contact .contact
+{
+    max-width: 800px;
+    text-align: left;
+}
+.contact .contact h2
+{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(5, 4, 83);
+    
+}
+.contact .contact p{
+    font-weight: 300;
+    color: rgb(2, 41, 4);
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container contactInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container contactInfo box icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(21, 7, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.ivZwqI {
+    display: flex;
+    z-index: 2;
+    position: relative;
+}
+.h3 {
+    font-weight: 400;
+    font-size: 20px;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.let
+{
+    padding: 0 0 5px;
+    background-color: rgb(241, 246, 251);
+    margin: 15px;
+    font-size: 18px;
+    font-family: initial;
+    text-align: justify;
+}
+h3
+{
+    margin: 10px;
+    text-shadow: 1px 1px #021f20;
+    text-decoration: underline;
+    color: #333636;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav_first
+{
+    text-align: left;
+}
+.footer-content {
+    height: 100px;
+    width: 100%;
+    background-color: #a0f3f8;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+div {
+    display: block;
+}
+.footer-content .footer-inner-content {
+    width: 40%;
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+    color: rgb(17, 3, 3);
+    font-size: 12px;
+    text-align: center;
+}
+.a .copy
+{
+    text-align: center;
+}
+.foot-nav-menu {
+    position: relative;
+    text-align: center;
+    padding: 20px 0 40px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.foot-nav-menu a {
+    color: rgb(7, 39, 250);
+    text-decoration: none;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
