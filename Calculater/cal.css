@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin-top: 0%;
+    padding: 0;
+    width: 80%;
+    margin: 10vh auto 0 auto;
+   align-items: center;
+    font-size: 18px;
+    overflow: hidden;
+    background-color: rgb(172, 246, 249);
+    display: flex;
+  }
+  
+  ul.topnav li {float: right;}
+  
+  ul.topnav li a {
+      font-family: arial;
+      text-decoration: underline;
+    display: block;
+    color: rgb(24, 2, 2);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav input[type=text] {
+      float: right;
+      padding: 6px;
+      margin-top: 8px;
+      margin-right: 16px;
+      border: none;
+      font-size: 17px;
+    }
+  
+  ul.topnav li a:hover:not(.active) {background-color: rgb(66, 167, 167);}
+  
+  ul.topnav li a.active {background-color: #06a7bc;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+}
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#equal {
+    background-color: rgb(85, 85, 255);
+    color: white;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    border-radius: 5px;
+}

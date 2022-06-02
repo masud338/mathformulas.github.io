@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body 
+{
+    margin: 0;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+}
+.main_div
+{
+    width: 90%;
+    height: 100%;
+    border: 0 solid;
+    border-radius: 1px;
+    color: rgb(0, 3, 6);
+    
+
+}
+
+
+#icon
+{
+    width: 30px;
+    cursor: pointer;
+}
+/*------Navigation------*/
+
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  overflow: hidden;
+  background-color: rgb(172, 246, 249);
+  display: flex;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    font-family: arial;
+    text-decoration: underline;
+  display: block;
+  color: rgb(24, 2, 2);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+  }
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(66, 167, 167);}
+
+ul.topnav li a.active {background-color: #06a7bc;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+
+
+/*----Login---*/
+
+/*-----Tabale----*/
+.tblFormula
+{
+    text-align: left;
+    margin: 40px;
+    border-collapse: collapse;
+    width: fit-content;
+}
+.tdTitle
+{
+    
+    color: #021f20;
+    background-color: rgb(13, 244, 167);
+    text-align: justify;
+
+}
+.tdFormula1
+{
+    color: black;
+    background-color: rgb(219, 236, 250);
+    text-align:justify;
+}
+.tdFormula2
+{
+    text-align: justify;
+}
+/*-----c------*/
+.contact
+{
+    position: relative;
+    min-height: 10px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(215, 241, 241);
+    flex-direction: column;
+
+
+}
+.contact .contact
+{
+    max-width: 800px;
+    text-align: left;
+}
+.contact .contact h2
+{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(5, 4, 83);
+    
+}
+.contact .contact p{
+    font-weight: 300;
+    color: rgb(2, 41, 4);
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container contactInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container contactInfo box icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(21, 7, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.PageTitle1
+{
+    margin: 0px;
+    padding: 2px;
+    font-weight: bold;
+    color: rgb(6, 23, 98);
+    font-style: normal;
+    text-decoration: underline;
+}
+.Title2 {
+    margin: 5px;
+    padding: 0 0 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: Gray;
+    font-style: normal;
+}
+
+h3{
+    border-radius: 40%;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #007ece;
+    font-family: Times New Roman, Arial;
+}
+p
+{
+    background-color: rgb(241, 246, 251);
+    text-align: justify;
+    margin: 10px;
+    padding: 0 0 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h4.a
+{
+    font-size: 8px;
+}
+div {
+    font-family: Arial;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+h2
+{
+    
+    margin-top: 5%;
+    text-align: center;
+    
+    background-color: rgb(216, 220, 223);
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 90%;
+    margin: 50px;
+   
+  }
+  table.table table-bordered {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(119, 116, 116);
+ }   
+.table tr a
+{
+    text-align: left;
+    text-decoration: none;
+    font-size: 13px;
+}
+.table tr a:hover
+{
+    text-decoration: underline;
+    color: rgb(12, 4, 236);
+    font-weight: bold;
+    
+}
+.a
+{
+    font-size: 18px;
+    font-family: initial;
+}
+.footer-content {
+    height: 100px;
+    width: 100%;
+    background-color: #a0f3f8;
+    
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+div {
+    display: block;
+}
+.footer-content .footer-inner-content {
+    width: 40%;
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+    color: rgb(17, 3, 3);
+    font-size: 12px;
+    text-align: center;
+}
+.foot-nav-menu {
+    position: relative;
+    text-align: center;
+    padding: 20px 0 40px 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-nav-menu a {
+    color: rgb(5, 37, 247);
+    text-decoration: none;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}

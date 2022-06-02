@@ -1,0 +1,46 @@
+<div style="clear:both; border-bottom: solid 3px #5badee;">
+    <h1 class="PageTitle1"><span id="ctl00_ctl00_ContentPlaceHolder1_TextContent_lbTitle">Divergence Theorem/Gauss' Theorem</span></h1>
+</div>
+<div style="width: 618px; padding-top:10px; padding-bottom: 10px; clear:both;">
+                <span id="ctl00_ctl00_ContentPlaceHolder1_TextContent_lbPageContent" class="formulaCss"><span style="font-family: times new roman,times,serif; color: #595959; font-size: 12pt">Let <b>B </b>be a solid region in <b><i>R<sup>3</sup></i></b> and let <b>S </b>be the surface of <b>B</b>, oriented with outwards pointing normal vector. Gauss Divergence theorem states that for a <b><i>C<sup>1</sup></i></b> vector field <b>F, </b>the following equation holds:<br>
+<img id="ctl00_Content_img" src="https://www.web-formulas.com/../displayImage.aspx?imageid=585" style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"><br>
+Note that for the theorem to hold, the orientation of the surface must be pointing outwards from the region <b>B</b>, otherwise we’ll get the minus sign in the above equation. Note that since <b>S</b> is the boundary of <b>B</b>, then it is always a closed surface ie: it has no boundary. In other words, the integral of a continuously differentiable vector field across a boundary (flux) is equal to the integral of the divergence of that vector field within the region enclosed by the boundary. <br>
+<br>
+<b><span style="color: #595959">Applications of Gauss Theorem:</span></b><br>
+</span>
+<ul>
+<li><span style="font-family: times new roman,times,serif; color: #595959; font-size: 12pt">The Aerodynamic Continuity Equation</span></li></ul>
+<ol>
+<li><span style="font-family: times new roman,times,serif; color: #595959; font-size: 12pt">The surface integral of mass flux around a control volume without sources or sinks is equal to the rate of mass storage.</span></li>
+<li><span style="font-family: times new roman,times,serif; color: #595959; font-size: 12pt">If the flow at a particular point is incompressible, then the net velocity flux around the control volume must be zero.</span></li>
+<li><span style="font-family: times new roman,times,serif; color: #595959; font-size: 12pt">As net velocity flux at a point requires taking the limit of an integral, one instead merely calculates the divergence.</span></li>
+<li><span style="font-family: times new roman,times,serif; color: #595959; font-size: 12pt">If the divergence at that point is zero, then it is incompressible.&nbsp; If it is positive, the fluid is expanding, and vice versa.</span></li></ol>
+<ul>
+<li><span style="font-family: times new roman,times,serif; color: #595959; font-size: 12pt">Gauss’s Theorem can be applied to any vector field which obeys an inverse-square law (except at the origin) such as gravity, electrostatic attraction, and even examples in quantum physics such as probability density.</span></li></ul><span style="font-family: times new roman,times,serif; color: #595959; font-size: 12pt"><br>
+
+
+<b><span style="color: #595959">Example 1: </span></b>Use the divergence theorem to calculate <img id="ctl00_Content_img" src="https://www.web-formulas.com/../displayImage.aspx?imageid=586" style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px">, where <b>S</b> is the surface of the box <b>B</b> with vertices (<span style="color: gray">±1, ±2, ±3</span>) with outwards pointing normal vector and <i>F(x, y, z) = (x<sup>2</sup>z<sup>3</sup>, 2xyz<sup>3</sup>, xz<sup>4</sup>).</i><br>
+<b><span style="color: #595959">Solution: </span></b>Note that the surface integral will be difficult to compute, since there are six different components to parameterize (corresponding to the six sides of the box) and so one would have to compute six different integrals. Instead, using Gauss Theorem, it is easier to compute the integral (<span style="color: gray">∇·F</span>)<i> </i>of <b>B.</b><br>
+First, we compute <i>(</i><i><span style="color: gray">∇</span></i><i><span style="color: gray">·F</span></i><i><span style="color: #595959">) = 2xz<sup>3</sup> + 2xz<sup>3</sup> + 4xz<sup>3</sup> = 8xz<sup>3</sup></span></i>. Now we integrate this function over the region B bounded by S:<br>
+<br>
+<img id="ctl00_Content_img" src="https://www.web-formulas.com/../displayImage.aspx?imageid=587" style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"><br>
+which is easy to verify.<br>
+<br>
+<b><span style="color: #595959">Example 2: </span></b>Evaluate <img id="ctl00_Content_img" src="https://www.web-formulas.com/../displayImage.aspx?imageid=588" style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px">, where<b> S</b> is the sphere given by <i>x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> = 9</i>.<br>
+<b><span style="color: #595959">Solution: </span></b>We could parametrize the surface and evaluate the surface integral, but it is much faster to use the divergence theorem. Since<br>
+<img id="ctl00_Content_img" src="https://www.web-formulas.com/../displayImage.aspx?imageid=589" style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"><br>
+The divergence theorem gives:<br>
+<img id="ctl00_Content_img" src="https://www.web-formulas.com/../displayImage.aspx?imageid=590" style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"><br>
+<br>
+<b><span style="color: #595959">Example 3: </span></b>Let <b>R </b>be the region in <b><i>R<sup>3</sup></i></b> by the paraboloid <i>z = x<sup>2</sup> + y<sup>2</sup></i> and the plane <i>z = 1</i>and let <b>S</b> be the boundary of the region <b>R. </b>Evaluate <img id="ctl00_Content_img" src="https://www.web-formulas.com/../displayImage.aspx?imageid=591" style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"><br>
+<b><span style="color: #595959">Solution: <br>
+</span></b>Since <img id="ctl00_Content_img" src="https://www.web-formulas.com/../displayImage.aspx?imageid=592" style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"><br>
+<br>
+
+
+The divergence theorem gives:<br>
+<img id="ctl00_Content_img" src="https://www.web-formulas.com/../displayImage.aspx?imageid=593" style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"><br>
+It is easiest to set up the triple integral in cylindrical coordinates:<br>
+<img id="ctl00_Content_img" src="https://www.web-formulas.com/../displayImage.aspx?imageid=594" style="border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px"><br>
+</span></span>
+            </div>
